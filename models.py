@@ -1,7 +1,6 @@
 from sqlalchemy import Column, Integer, String, Boolean, DateTime, ForeignKey, Text
 from sqlalchemy.orm import relationship
 
-# Импортируем Base из нашего файла database.py
 from database import Base
 
 
